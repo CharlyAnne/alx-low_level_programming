@@ -3,11 +3,10 @@
  * Auth: CharlyAnne
  */
 #include <stdio.h>
-
 /**
  * main - print to screen
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
