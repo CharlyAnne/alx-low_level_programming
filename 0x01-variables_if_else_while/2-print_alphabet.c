@@ -2,8 +2,6 @@
  * File: 2-print_alphabet.c
  * Auth: CharlyAnne
  */
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - print alphabet in lowercase
