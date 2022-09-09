@@ -3,6 +3,7 @@
  * Auth: CharlyAnne
  */
 #include <stdio.h>
+
 /**
  * main - print alphabet in lowercase
  *
