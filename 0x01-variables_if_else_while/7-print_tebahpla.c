@@ -2,8 +2,7 @@
 /**
  * main - Entry point
  * 
- * Description: 'output lower case letters in rivers using putchar'
- * Return: Always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
