@@ -1,10 +1,7 @@
-/*
- * File: 1-last_digit.c
- * Auth: CharlyAnne
- */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Checks last digit
  *
@@ -13,23 +10,24 @@
 int main(void)
 {
 	int n;
-	int ln;
+	int last_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	ln = n % 10;
+	/*code goes here*/
+	last_digit = n % 10;
 
-	if (ln > 5)
+	if (last_digit > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, ln);
+	printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
 	}
-	else if (ln == 0)
+	else if (last_digit == 0)
 	{
-		printf("Last digit of %d is %d and 0\n", n, ln);
+	printf("Last digit of %d is %d and 0\n", n, last_digit);
 	}
-	else if (ln < 6 && ln != 0)
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ln);
-	}
+	else
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n,
+	last_digit);
+
 	return (0);
 }
