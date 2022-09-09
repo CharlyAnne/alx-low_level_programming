@@ -1,4 +1,4 @@
-#include <stdio.o>
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: output letters in small and capital letters
