@@ -1,7 +1,3 @@
-/*
- * File: 2-print_alphabet.c
- * Auth: CharlyAnne
- */
 #include <stdio.h>
 
 /**
@@ -11,10 +7,10 @@
  */
 int main(void)
 {
-	char letter;
+	char ch = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 
 		putchar('\n');
 
