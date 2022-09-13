@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * *print_sign - Entry point
- * Decription - Checks sign of number
+ * print_sign- checks sign of number
  *
  * @n: variable number to be checked
- *
- * Return : Always 0.
+ * Return: Always 0.
 */
 int print_sign(int n)
 {
