@@ -16,7 +16,7 @@ for (i = 1; i <= 48; i++)
 r = a + b;
 a = b;
 b = r;
-printf(", %ld", r);
+printf(", %d", r);
 }
 putchar('\n');
 return (0);
