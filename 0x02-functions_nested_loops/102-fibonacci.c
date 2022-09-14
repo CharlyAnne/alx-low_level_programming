@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <studio.h>
 /**
- * *main - writes a program that computes and prints the sum of all the 
- *  *multiples of 3 or 5 below 1024 (excluded)
- *   *i: Integer
- *    *r: Result
- *     *Return: on success 1.
+ * main - computes and print sum of all multiples of 3 and 5 below 1024
+ *
+ * i: Integer
+ * r: Result
+ * Return: On success 1.
 */
 int main(void)
 {
@@ -16,7 +16,7 @@ for (i = 1; i <= 48; i++)
 r = a + b;
 a = b;
 b = r;
-printf(", %d", r);
+printf(", %ld", r);
 }
 putchar('\n');
 return (0);
