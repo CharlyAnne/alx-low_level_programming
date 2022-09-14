@@ -1,10 +1,10 @@
-#include <studio.h>
+#include <stdio.h>
 /**
- * main - computes and print sum of all multiples of 3 and 5 below 1024
+ * main - Computes and prints sum of all the multiples of 3 or 5 below 1024
  *
  * i: Integer
  * r: Result
- * Return: On success 1.
+ * Return: on success 1.
 */
 int main(void)
 {
