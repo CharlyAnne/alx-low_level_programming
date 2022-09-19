@@ -2,18 +2,25 @@
 
 /**
  * print_rev - prints a string, in reverse, followed by a new line.
- * @str: value to be tested
+ * @s: value to be tested
  *
  * Return: Always 0
 */
-void print_rev(char *str);
+void print_rev(char *s);
 {
-int i = 0;
-while (*(str + i))
+int length, last;
+
+
+length = 0;
+while (s[length] != '\0')
+{
+length++
 }
-i++;
+
+last = length - 1;
+for (; last >= 0; last--)
+{
+_putchar(s[last]);
 }
-for (i--; i >= 0; i--)
-_putchar(*(str + i));
 _putchar('\n');
 }
