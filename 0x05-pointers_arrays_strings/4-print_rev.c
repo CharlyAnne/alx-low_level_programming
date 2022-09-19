@@ -14,7 +14,7 @@ int length, last;
 length = 0;
 while (s[length] != '\0')
 {
-length++
+length++;
 }
 
 last = length - 1;
