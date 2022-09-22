@@ -4,19 +4,22 @@
  * *_strncpy - function to copy the string pointed to by src.
  * @src: source pointer
  * @dest: pointer to the buffer
- * @n: length of src
+ * @n: length of bytes to be copied from src
  *
- * Return: char.
+ * Return:a pointer to the resulting string dest.
 */
 char *_strncpy(char *dest, char *src, int n)
 {
-int i;
+int i = 0, src_len = 0;
 
-for (i = 0; i < n && src src[i] != '\0'; i++)
-{
+while (src[index++])
+src_len++;
+
+for (i = 0; src[i] && i < n; i++)
 dest[i] = src[i];
-}
-for (; i < n; i++)
+
+for (i = 0; src[i] && i < n; i++)
 dest[i] = '\0';
+
 return (dest);
 }
