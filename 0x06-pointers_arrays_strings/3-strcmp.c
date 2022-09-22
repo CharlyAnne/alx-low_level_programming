@@ -12,13 +12,15 @@
 */
 int _strmcmp(char *s1, char *s2)
 {
-int counter, cmpVal;
+int i;
+int R;
 
-int counter = 0;
-while (s1[counter] == s2[counter] && s1[counter] != '\0')
+i = 0;
+
+while (s1[i] == s2[i] && (s1[i] != '\0' || s2[i] != '\0'))
 {
-counter++;
+i++;
 }
-cmpVal = s1[counter] - s2[counter];
-return (cmpVal);
+R = s1[i] - s2[i];
+return (R);
 }
