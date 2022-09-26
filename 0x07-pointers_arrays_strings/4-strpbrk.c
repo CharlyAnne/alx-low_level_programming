@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * *_strbrk - searches a string for any of a set of bytes
+ * *_strpbrk - searches a string for any of a set of bytes
  * @s: source string to be searched
  * @accept: the set of bytes to be serched for
  *
  * Return: If a set is matched, a pointer to the matched byte
  * if no set is matched, return NULL.
 */
-char *_strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 int index;
 
@@ -23,4 +23,3 @@ s++;
 }
 return ('\0');
 }
-
