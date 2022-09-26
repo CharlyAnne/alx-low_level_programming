@@ -14,6 +14,7 @@ int index;
 
 if (*needle == 0)
 return (haystack);
+
 while (*haystack)
 {
 index = 0;
@@ -23,8 +24,7 @@ do {
 if (needle[index + 1] == '\0')
 return (haystack);
 index++;
-}
-while (haystack[index] == needle[index])
+} while (haystack[index] == needle[index]);
 }
 haystack++;
 }
