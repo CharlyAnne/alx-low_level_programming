@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * _islower - prints 1 or 0 depending on input
- *  @c: first parameter
+ * _islower- Checks for lowercase
  *
- *  Description: prints all lowercase letters
- *  Return: Always(0).
- */
+ * @c: c is the variable for the program
+ * Return: 1 if c is lowercse, 0 otherwise.
+*/
 int _islower(int c)
 {
-	return (c >= 'a' && c <= 'z');
+if (c >= 'a' && c <= 'z')
+return (1);
+else
+return (0);
 }

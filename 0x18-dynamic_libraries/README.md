@@ -1,1 +1,1 @@
-Solutions for dynamic libraries tasks
+DYNAMIC LIBRARIES TASKS
