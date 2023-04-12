@@ -8,7 +8,6 @@
  * @array: input array to search
  * @size: size of the array
  * @value: value to search for in the array
- *
  * Return: the index of the @value, or -1 if not found
 */
 
