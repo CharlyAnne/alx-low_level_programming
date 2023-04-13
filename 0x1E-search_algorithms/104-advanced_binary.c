@@ -5,8 +5,8 @@ int binary_search_recursion(int *array, int value,
 			    size_t left, size_t right);
 
 /**
- * binary_search_recursion - helper to `advanced_binary`, recursively searches
- * for a value in an integer array
+ * binary_search_recursion - helper to `advanced_binary`, recursively
+ * searches for a value in an integer array.
  * @array: pointer to first element of array to seach
  * @value: value to search for
  * @left: starting index in array
