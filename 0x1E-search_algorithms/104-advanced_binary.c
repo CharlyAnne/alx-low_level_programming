@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "search_algos.h"
 
-int binary_search_recursion(int *array, int value,
-			    size_t left, size_t right);
+int binary_search_recursion(int *array, int value,size_t left,
+		size_t right);
 
 /**
  * binary_search_recursion - helper to `advanced_binary`, recursively
  * searches for a value in an integer array.
- * @array: pointer to first element of array to seach
+ * @array: pointer to first element of array to search
  * @value: value to search for
  * @left: starting index in array
  * @right: ending index in array
@@ -15,8 +15,8 @@ int binary_search_recursion(int *array, int value,
  * Return: index containing `value`, or -1 if `value` not found or
  * `array` is NULL
 */
-int binary_search_recursion(int *array, int value,
-			    size_t left, size_t right)
+int binary_search_recursion(int *array, int value, size_t left,
+		size_t right)
 {
 	size_t mid, i;
 
@@ -35,10 +35,10 @@ int binary_search_recursion(int *array, int value,
 	{
 		if (array[mid] < value)
 			return (binary_search_recursion(array, value,
-							mid + 1, right));
+						mid + 1, right));
 		if (array[mid] >= value)
 			return (binary_search_recursion(array, value,
-							left, mid));
+						left, mid));
 	}
 
 	return (-1);
