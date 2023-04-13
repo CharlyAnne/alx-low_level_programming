@@ -20,21 +20,20 @@ int jump_search(int *array, size_t size, int value)
 		return (-1);
 
 	step = sqrt(size);
-	for (i = 0; jump < size && array[i] < value;)
+	for (i = jump = 0; jump < size && array[jump] < value;)
 	{
-		printf("Value checked array[%ld] = [%d]\n", i, array[i]);
+		printf("Value checked array[%ld] = [%d]\n", jump, array[jump]);
 		i = jump;
 		jump += step;
 	}
-
 	/* this causes 'found' msg even when value not in array */
-	printf("Value found between indexes [%ld] and [%ld]\n", jump, i);
-	
+	printf("Value found between indexes [%ld] and [%ld]\n", i, jump);
+
 	if (jump < size - 1)
 		jump = jump;
 	else
 		jump = size - 1;
-	
+
 	for (; i < jump && array[i] < value; i++)
 		printf("Value checked array[%ld] = [%d]\n", i, array[i]);
 	printf("Value checked array[%ld] = [%d]\n", i, array[i]);
