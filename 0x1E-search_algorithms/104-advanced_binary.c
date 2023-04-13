@@ -2,7 +2,7 @@
 #include "search_algos.h"
 
 int binary_search_recursion(int *array, int value,size_t left,
-		size_t right);
+			    size_t right);
 
 /**
  * binary_search_recursion - helper to `advanced_binary`, recursively
@@ -16,7 +16,7 @@ int binary_search_recursion(int *array, int value,size_t left,
  * `array` is NULL
 */
 int binary_search_recursion(int *array, int value, size_t left,
-		size_t right)
+			    size_t right)
 {
 	size_t mid, i;
 
