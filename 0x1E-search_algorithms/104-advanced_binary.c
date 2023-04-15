@@ -9,8 +9,8 @@ int binary_search_recursion(int *array, int value,
  * for a value in an integer array
  * @array: pointer to first element of array to seach
  * @value: value to search for
- * @low: starting index in array
- * @high: ending index in array
+ * @left: starting index in array
+ * @right: ending index in array
  *
  * Return: index containing `value`, or -1 if `value` not found or
  * `array` is NULL
